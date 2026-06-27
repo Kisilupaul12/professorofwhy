@@ -1,25 +1,31 @@
-  
-    :root {
-      --ink: #080808;
-      --ink2: #111111;
-      --ink3: #1c1c1c;
-      --ink4: #2a2a2a;
-      --dim: #3a3a3a;
-      --muted: #6e6e6e;
-      --silver: #a0a0a0;
-      --smoke: #cccccc;
-      --cream: #ece9e4;
-      --white: #f8f6f2;
-      --red: #cc0e2d;
-      --red2: #a50b24;
-      --red3: #e51535;
-      --redglow: rgba(204, 14, 45, .16);
-      --redglow2: rgba(204, 14, 45, .06);
-      --bg-light: #fcfcfc;
-      --bg-light-alt: #f3f3f3;
-      --text-dark: #121212;
-      --text-dark-muted: #555555;
-      --border-light: rgba(0,0,0,0.06);
+:root {
+      /* The Visionary Palette - Dark/Midnight Slate Base */
+      --ink: #0E131F;
+      --ink2: #141A29;
+      --ink3: #1C2436;
+      --ink4: #273147;
+      --dim: #3A4660;
+      --muted: #6E7B96;
+      --silver: #A3AFCA;
+      --smoke: #D1D8E8;
+      
+      /* Typography / Light Mode Base */
+      --cream: #F4F1EB;
+      --white: #FBF9F6;
+      
+      /* Commanding Crimson Accents */
+      --red: #A31621;
+      --red2: #801018;
+      --red3: #BD1C28;
+      --redglow: rgba(163, 22, 33, .22);
+      --redglow2: rgba(163, 22, 33, .08);
+      
+      /* Hybrid Light Mode Colors */
+      --bg-light: #FBF9F6;
+      --bg-light-alt: #F4F1EB;
+      --text-dark: #0E131F;
+      --text-dark-muted: #3A4660;
+      --border-light: rgba(14, 19, 31, 0.08);
       --f-display: 'Bebas Neue', sans-serif;
       --f-serif: 'Cormorant Garamond', Georgia, serif;
       --f-sans: 'Outfit', system-ui, sans-serif;
