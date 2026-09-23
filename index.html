@@ -1,764 +1,235 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Home | Prof. Nzioki ERiK â€</title>
-  <meta name="description"
-    content="Prof. Nzioki ERiK — The Professor of Why™. Keynote speaker, published author of 3 books, and leadership strategist. Endorsed by Kenya's VP and Africa's top leaders. Serving organizations across 15+ countries through the WHY CODE framework. Book Nzioki for your next event." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Outfit:wght@300;400;500;600;700&family=Bebas+Neue&display=swap"
-    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof. Nzioki ERiK — The Professor of Why</title>
   <link rel="stylesheet" href="style.css" />
-  
-  <meta property="og:title" content="Prof. Nzioki ERiK â€” The Professor of Whyâ„¢" />
-  <meta property="og:description" content="Keynote speaker, published author of 3 books, and leadership strategist. Endorsed by Kenya's VP and Africa's top leaders." />
-  <meta property="og:image" content="Prof. Nzioki ERiK Website/IMG-20260224-WA0006.jpg" />
-  <meta property="og:url" content="https://professorofwhy.com" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 </head>
+<body class="bg-white text-gray-900 font-sans antialiased">
 
-<body>
-  <div id="cur"></div>
-  <div id="cur-ring"></div>
-
-  <!-- NAV -->
-  <nav class="nav" id="nav">
-    <div class="wrap">
-      <div class="nav-inner" style="justify-content: space-between;">
-        <a href="index.html" class="nav-text-logo" style="font-family: var(--f-display); font-size: 1.8rem; letter-spacing: 1px; color: var(--cream); text-decoration: none;">NZIOKI<span style="color: var(--red);">ERiK</span></a>
-        
-        <ul class="nmenu" style="flex: 1; justify-content: flex-end; margin-right: 1.5rem;">
-          <li><a href="about.html">About</a></li>
-          <li><a href="speaking.html">Services</a></li>
-          <li><a href="books.html">Books</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        
-        <a href="#contact" class="btn btn-red btn-sm nav-book">Book Now</a>
-        <button class="ham" id="ham" style="margin-left: 1rem;"><span></span><span></span><span></span></button>
-      </div>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">NZIOKI <span>ERiK</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="speaking.html">Services</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#conversation">Contact</a></li>
+      </ul>
+      <a href="#conversation" class="btn-primary-sm">Let's Talk</a>
     </div>
   </nav>
-  <div class="drawer" id="drawer">
-    <a href="index.html">Home</a><a href="about.html">About</a><a href="speaking.html">Services</a><a href="books.html">Books</a><a href="about.html#code">The CODE</a>
-    <a href="gallery.html">Gallery</a><a href="index.html#testi">Testimonials</a><a href="books.html#blog">Blog</a><a href="speaking.html#mk">Media Kit</a><a href="#contact">Book / Contact</a>
-  </div>
 
-      <!-- HERO -->
-  <section class="hero" id="hero" style="justify-content:center; text-align:center;">
-    <div class="wrap hero-content" style="display:flex; flex-direction:column; align-items:center;">
-      <div style="margin-bottom: 2rem;">
-        <img src="logo.png" alt="Icon" style="height: 100px; width: auto; mix-blend-mode: screen; filter: drop-shadow(0 0 0 rgba(0,0,0,0)); object-fit: contain;" />
-      </div>
-      <span class="tag rv" style="margin-bottom: 2rem;">[ The Professor of Why ]</span>
-      <h1 class="rv d1" style="font-size: clamp(4rem, 11vw, 9.5rem); line-height: 0.9; margin-bottom:1rem;">THE<br /><span class="r">PROFESSOR</span><span class="sub" style="display:block; margin-top:0.3em;">of <span class="r">Why</span>&trade;</span></h1>
-      <div class="h-div rv d2" style="justify-content:center; max-width:840px; margin: 1.5rem auto 3rem;">
-        <p class="h-sub" style="font-size: clamp(1.15rem, 2.5vw, 1.6rem);">You are ready to redefine what is possible. It is time to elevate your thinking, discover your <strong>WHY</strong>, and build a legacy of lasting influence in the <strong>21st Century.</strong></p>
-      </div>
-      <div class="h-ctas rv d3" style="justify-content:center;">
-        <a href="#contact" class="btn btn-red"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="1.8">
-            <path d="M12 20h9" />
-            <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
-          </svg> BOOK NZIOKI TO SPEAK</a>
-        <a href="#contact" class="btn btn-ghost"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="1.8">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-            <polyline points="22,6 12,13 2,6" />
-          </svg> Get in Touch</a>
+  <!-- 1. HERO SECTION (Stage Photo & Write-up) -->
+  <header class="hero-section">
+    <div class="hero-overlay"></div>
+    <!-- ACTION REQUIRED: Replace src with the specific Missionary Girls / Large Crowd stage photo -->
+    <img src="Prof. Nzioki ERiK Website/IMG_STAGE_CROWD.jpg" alt="Prof. Nzioki presenting to a large crowd" class="hero-bg-img" />
+    
+    <div class="hero-content">
+      <span class="hero-badge">Author • Speaker • Strategist</span>
+      <h1 class="hero-title">Defining The <br/>Future of Leadership.</h1>
+      <p class="hero-subtitle">
+        Empowering the next generation of leaders to find their purpose, execute with audacity, and transform institutions from the inside out.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn-gold">Discover The Why</a>
+        <a href="#session" class="btn-outline-light">Book 1-on-1</a>
       </div>
     </div>
-    <div class="scroll-cue" style="left:50%; transform:translateX(-50%); flex-direction:column; gap:8px;">
-      <span class="sc-txt" style="writing-mode: vertical-rl;">Scroll</span>
-      <div class="sc-line" style="width:1px; height:48px;"></div>
+  </header>
+
+  <!-- 2. ABOUT: THE PROFESSOR OF WHY -->
+  <section id="about" class="about-section">
+    <div class="container grid-2col">
+      <div>
+        <span class="section-tag">Core Philosophy</span>
+        <h2 class="main-heading">The Professor <br/>of <span class="accent-serif">Why</span></h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="about-text-box">
+        <p class="lead-text">
+          I don't just speak to crowds; I engineer mindset shifts. My mission is to dismantle limiting beliefs and help leaders uncover the fundamental 'Why' driving their existence.
+        </p>
+        <p>
+          Whether addressing high-level corporate executives or thousands of rising youth leaders, my approach bridges strategic rigor with profound human empathy. We live in a world obsessed with 'How' and 'What', but sustainable success is entirely rooted in the 'Why'. Once you unlock that, clarity follows, and unstoppable execution begins.
+        </p>
+        <a href="about.html" style="color: var(--color-gold); font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; margin-top: 16px; display: inline-block;">Read Full Biography &rarr;</a>
+      </div>
     </div>
   </section>
 
-  <!-- TICKER -->
-  <div class="ticker">
-    <div class="t-track" id="ttrack">
-      <div class="t-item">Creating the Future<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Keynote Speaker<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Executive Consultant<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">WHY Leadership Trainer<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Published Author<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">The WHY CODE Framework<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Developing Leaders<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Discover your WHY<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Strategic Advisor<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Creating the Future<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Keynote Speaker<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Executive Consultant<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">WHY Leadership Trainer<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Published Author<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">The WHY CODE Framework<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Developing Leaders<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Discover your WHY<span class="t-gem">&#10022;</span></div>
-      <div class="t-item">Strategic Advisor<span class="t-gem">&#10022;</span></div>
+  <!-- 3. TESTIMONIALS (The Moving Marquee) -->
+  <section class="marquee-section">
+    <div class="container" style="text-align: center; margin-bottom: 40px;">
+      <span class="section-tag">Impact</span>
+      <h2 class="main-heading" style="font-size: 2.2rem;">What People Say <br/><span class="accent-serif">About Nzioki</span></h2>
     </div>
-  </div>
-
-  <!-- VIP SOCIAL PROOF STRIP -->
-  <section class="vip-strip" id="vip">
-    <div class="vip-inner">
-  
-      <div class="vip-img-col">
-        <div class="vip-img-wrap">
-          <img src="Prof. Nzioki ERiK Website/IMG-20241011-WA0109.jpg"
-               alt="Prof. Nzioki ERiK in conversation with national leaders"
-               loading="lazy" />
-          <div class="vip-img-tag">National Leadership</div>
-        </div>
-      </div>
-  
-      <!-- RIGHT: VP Quote + attribution -->
-      <div class="vip-quote-col">
-        <span class="tag vip-tag">
-          In Conversation With Leaders Who Shape The Continent
-        </span>
-        <blockquote class="vip-quote rv d1">
-          &ldquo;I see you. May the light that you carry light up
-          this country and Africa at large.&rdquo;
-        </blockquote>
-        <div class="vip-attr rv d2">
-          <div class="vip-attr-line"></div>
-          <div class="vip-attr-person">
-            <img src="Testimonials/1.png"
-                 alt="H.E. Dr. Stephen Kalonzo Musyoka"
-                 class="vip-attr-img" />
+    
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <p class="quote">"Nzioki doesn't just deliver a speech; he shifts the entire energy of the room. His insights on youth leadership are unmatched."</p>
+          <div class="author-box">
             <div>
-              <span class="vip-attr-name">
-                H.E. Dr. Stephen Kalonzo Musyoka
-              </span>
-              <span class="vip-attr-role">
-                10th Vice President of the Republic of Kenya
-              </span>
+              <div class="author-name">Sarah M.</div>
+              <div class="author-role">Event Director</div>
             </div>
           </div>
         </div>
-        <a href="index.html#testi" class="vip-more rv d3">
-          Read More Testimonials <span class="arr"></span>
-        </a>
-      </div>
-  
-    </div>
-  
-  </section>
-
-  <!-- SOCIAL PROOF NAME BAR -->
-  <div class="proof-bar">
-    <div class="proof-track">
-      <span>H.E. KALONZO MUSYOKA</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>KHALIF KAIRO</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>PST. DR. ROBERT BURALE</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>DR. DANIEL YUMBYA</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>BRIAN NYAMBEGO</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>PROF. ACQUILLAHS MUTETI</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>DR. EMILY OKOTH OKUKU</span>
-      <span class="pb-dot">&#9679;</span>
-      <!-- duplicate for seamless loop -->
-      <span>H.E. KALONZO MUSYOKA</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>KHALIF KAIRO</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>PST. DR. ROBERT BURALE</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>DR. DANIEL YUMBYA</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>BRIAN NYAMBEGO</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>PROF. ACQUILLAHS MUTETI</span>
-      <span class="pb-dot">&#9679;</span>
-      <span>DR. EMILY OKOTH OKUKU</span>
-      <span class="pb-dot">&#9679;</span>
-    </div>
-  </div>
-
-  <!-- INTRO -->
-  <section class="intro theme-light">
-    <div class="wrap">
-      <div class="intro-g">
-        <div class="rvl"><span class="intro-lbl">The WHY</span>
-          <div class="intro-num">01</div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <p class="quote">"The Professor of Why helped our executive team unlock absolute clarity. A transformative 1-on-1 experience."</p>
+          <div class="author-box">
+            <div>
+              <div class="author-name">David K.</div>
+              <div class="author-role">Corporate Executive</div>
+            </div>
+          </div>
         </div>
-        <div class="rv">
-          <div class="intro-body">
-            <p>Nzioki Erik, globally regarded as <strong>&ldquo;The Professor of WHY&rdquo;</strong>, is a leadership
-              trainer, strategist and advisor committed to awakening purpose-driven influence in a generation hungry for
-              clarity.</p>
-            <p>He challenges leaders to confront the deeper question of <strong>WHY</strong>, discard limiting
-              narratives and build influence rooted in conviction.</p>
-            <p>Through electrifying keynotes, bestselling thought leadership and high-level advisory engagements, he has
-              shaped conversations in more than <strong>15 countries</strong>, leaving every room, leaders and
-              institutions <strong>permanently transformed.</strong></p>
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <p class="quote">"Listening to him speak to the students was phenomenal. He connects instantly and leaves a lasting impact."</p>
+          <div class="author-box">
+            <div>
+              <div class="author-name">Dr. Jane O.</div>
+              <div class="author-role">University Dean</div>
+            </div>
+          </div>
+        </div>
+        <!-- Duplicates for seamless infinite scrolling -->
+        <div class="testimonial-card">
+          <p class="quote">"Nzioki doesn't just deliver a speech; he shifts the entire energy of the room. His insights on youth leadership are unmatched."</p>
+          <div class="author-box">
+            <div>
+              <div class="author-name">Sarah M.</div>
+              <div class="author-role">Event Director</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="quote">"The Professor of Why helped our executive team unlock absolute clarity. A transformative 1-on-1 experience."</p>
+          <div class="author-box">
+            <div>
+              <div class="author-name">David K.</div>
+              <div class="author-role">Corporate Executive</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- STATS -->
-  <div class="stats theme-light">
-    <div class="wrap">
-      <div class="s-row">
-        <div class="s-box rv"><span class="s-n" data-count="3">0</span><span class="s-l">Published Books</span></div>
-        <div class="s-box rv d1"><span class="s-n" data-count="15">0</span><span class="s-l">Countries Reached</span>
-        </div>
-        <div class="s-box rv d2"><span class="s-n" data-count="100">0</span><span class="s-l">Engagements
-            Delivered</span></div>
-        <div class="s-box rv d3"><span class="s-n" data-count="50000">0</span><span class="s-l">Leaders
-            Transformed</span></div>
+  <!-- 4. BOOK A 1-ON-1 SESSION -->
+  <section id="session" class="cta-dark-section" style="background: var(--color-gold); color: var(--color-black);">
+    <div class="container">
+      <span class="cta-badge" style="color: var(--color-white);">Strategic Advisory</span>
+      <h2 class="cta-heading" style="color: var(--color-black);">Book a 1-on-1 Session <br/>With Nzioki</h2>
+      <p class="cta-text" style="color: var(--color-gray-900); font-weight: 500;">
+        Unlock absolute clarity. Break through cognitive barriers, align your purpose with execution, and engineer your personal or corporate trajectory.
+      </p>
+      <div class="cta-buttons">
+        <a href="#conversation" class="btn-white" style="background: var(--color-black); color: var(--color-white);">Schedule Session</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <section class="testi theme-light" id="testi">
-    <div class="wrap">
-      <div class="t-hdr">
-        <div><span class="tag rv">Praise</span>
-          <h2 class="rv d1">What People Say <em>About Nzioki</em></h2>
+  <!-- 5. CONTACT / LET'S START A CONVERSATION -->
+  <section id="conversation" class="contact-section">
+    <div class="container grid-2col">
+      <div class="contact-info">
+        <span class="section-tag">Direct Access</span>
+        <h2 class="main-heading">Let's Start a <br/><span class="accent-serif">Conversation</span></h2>
+        <p class="contact-desc">
+          Whether you want to book a keynote, schedule a 1-on-1 clarity session, or explore a partnership, drop a message below. Our executive desk will connect with you shortly.
+        </p>
+        <div class="contact-methods">
+          <a href="mailto:hello@nziokierik.com" class="contact-item">
+            <div class="icon-box">✉</div>
+            <div>
+              <span class="label">Email Direct</span>
+              <span class="val">hello@nziokierik.com</span>
+            </div>
+          </a>
         </div>
-        <a href="#contact" class="btn btn-ghost rv d2">Book Nzioki</a>
       </div>
-      
-      <div class="praise-marquee-area rv d3">
-        <!-- ROW 1 -->
-        <div class="praise-marquee-row">
-          <div class="praise-marquee-track slow">
-            <!-- Group 1 -->
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I see you. May the light that you carry light up this country and Africa at large.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/1.png" alt="H.E. Dr. Stephen Kalonzo Musyoka" class="praise-auth-img" style="object-position: center 10%;" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">H.E. Dr. Stephen Kalonzo Musyoka</span>
-                  <span class="praise-role">Tenth Vice President of Kenya</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;You represent young leadership exceptionally well. You are a go-getter who shows up and pushes for the right decisions. Keep becoming, I will always be ready to support the transition.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/2.png" alt="Stellamaries Mutua" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Stellamaries Mutua</span>
-                  <span class="praise-role">MD, Shadel International School</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;You are a blessing to this generation. I am proud of you, I watch your progress and I can't wait to see what God does through your life. Keep going, I am praying for you and supporting you all the way.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/3.png" alt="Pst. Dr. Robert Burale" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Pst. Dr. Robert Burale</span>
-                  <span class="praise-role">CEO, The RB Company</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I am proud of what you are doing and what you are about to do. Keep at it. I am certain I will hear great things about you sooner than later. It's your time, go change the world.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/6.png" alt="Prof. Acquillahs Muteti" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Prof. Acquillahs Muteti</span>
-                  <span class="praise-role">CEO, ACQ Consultants (U.S.A)</span>
-                </div>
-              </div>
-            </div>
-            <!-- Duplicated Group 1 for loop -->
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I see you. May the light that you carry light up this country and Africa at large.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/1.png" alt="H.E. Dr. Stephen Kalonzo Musyoka" class="praise-auth-img" style="object-position: center 10%;" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">H.E. Dr. Stephen Kalonzo Musyoka</span>
-                  <span class="praise-role">Tenth Vice President of Kenya</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;You represent young leadership exceptionally well. You are a go-getter who shows up and pushes for the right decisions. Keep becoming, I will always be ready to support the transition.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/2.png" alt="Stellamaries Mutua" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Stellamaries Mutua</span>
-                  <span class="praise-role">MD, Shadel International School</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;You are a blessing to this generation. I am proud of you, I watch your progress and I can't wait to see what God does through your life. Keep going, I am praying for you and supporting you all the way.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/3.png" alt="Pst. Dr. Robert Burale" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Pst. Dr. Robert Burale</span>
-                  <span class="praise-role">CEO, The RB Company</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I am proud of what you are doing and what you are about to do. Keep at it. I am certain I will hear great things about you sooner than later. It's your time, go change the world.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/6.png" alt="Prof. Acquillahs Muteti" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Prof. Acquillahs Muteti</span>
-                  <span class="praise-role">CEO, ACQ Consultants (U.S.A)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+      <div class="contact-form-card">
+        <h3>Send a Message</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required class="form-input" />
+          <input type="email" placeholder="Email Address" required class="form-input" />
+          <select class="form-select" required>
+            <option value="" disabled selected>Subject / Inquiry Type</option>
+            <option>1-on-1 Clarity Session</option>
+            <option>Keynote / Speaking Request</option>
+            <option>Media / Interview</option>
+            <option>General Inquiry</option>
+          </select>
+          <textarea placeholder="How can we collaborate?..." rows="4" class="form-textarea" required></textarea>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EXPANDED FOOTER (Resources, Links, Information) -->
+  <footer class="footer" style="padding: 60px 0 40px 0; background: var(--color-black); color: var(--color-white);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; margin-bottom: 40px;">
         
-        <!-- ROW 2 -->
-        <div class="praise-marquee-row">
-          <div class="praise-marquee-track med reverse">
-            <!-- Group 2 -->
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Eric is part of a new generation of critical thinkers in the field of leadership and governance. His courage to ask difficult questions and advocate for meaningful inclusion of young people in decision-making spaces is commendable. Young leaders like him are key for the future of our institutions.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/4.png" alt="Dr. Daniel Yumbya" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Dr. Daniel Yumbya</span>
-                  <span class="praise-role">Founding CEO, KMPDC</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Sometimes you just see someone with grit, audacity and a genuine love for growth and you support them as a brother, expecting nothing but to see them succeed.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/5.png" alt="Brian Nyambego" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Brian Nyambego</span>
-                  <span class="praise-role">CEO, Aven Global</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Nzioki represents a rising young voice in this generation. Committed to bringing out the best in young people and contributing meaningfully to our continent.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/7.png" alt="Khalif Kairo" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Khalif Kairo</span>
-                  <span class="praise-role">CEO, Kai &amp; Karo</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I am proud of you. You will go places. We didn't make a mistake by choosing you for a panel discussion at career fair. May God go ahead and make you great, Professor.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/8.png" alt="Dr. Emily Okoth Okuku" class="praise-auth-img" style="object-position: center 30%;" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Dr. Emily Okoth Okuku</span>
-                  <span class="praise-role">Manager, Career Planning KCA Univ.</span>
-                </div>
-              </div>
-            </div>
-            <!-- Duplicated Group 2 for loop -->
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Eric is part of a new generation of critical thinkers in the field of leadership and governance. His courage to ask difficult questions and advocate for meaningful inclusion of young people in decision-making spaces is commendable. Young leaders like him are key for the future of our institutions.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/4.png" alt="Dr. Daniel Yumbya" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Dr. Daniel Yumbya</span>
-                  <span class="praise-role">Founding CEO, KMPDC</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Sometimes you just see someone with grit, audacity and a genuine love for growth and you support them as a brother, expecting nothing but to see them succeed.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/5.png" alt="Brian Nyambego" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Brian Nyambego</span>
-                  <span class="praise-role">CEO, Aven Global</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;Nzioki represents a rising young voice in this generation. Committed to bringing out the best in young people and contributing meaningfully to our continent.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/7.png" alt="Khalif Kairo" class="praise-auth-img" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Khalif Kairo</span>
-                  <span class="praise-role">CEO, Kai &amp; Karo</span>
-                </div>
-              </div>
-            </div>
-            <div class="praise-card">
-              <p class="praise-q">&ldquo;I am proud of you. You will go places. We didn't make a mistake by choosing you for a panel discussion at career fair. May God go ahead and make you great, Professor.&rdquo;</p>
-              <div class="praise-auth-wrap">
-                <img src="Testimonials/8.png" alt="Dr. Emily Okoth Okuku" class="praise-auth-img" style="object-position: center 30%;" />
-                <div class="praise-auth-info">
-                  <span class="praise-name">Dr. Emily Okoth Okuku</span>
-                  <span class="praise-role">Manager, Career Planning KCA Univ.</span>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!-- Brand -->
+        <div>
+          <a href="index.html" class="brand-logo" style="color: var(--color-white);">NZIOKI <span style="color: var(--color-gold);">ERiK</span></a>
+          <p style="color: #aaa; font-size: 0.9rem; margin-top: 16px;">Defining the future of leadership, one mindset shift at a time.</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section class="contact theme-light" id="contact">
-    <div class="wrap">
-      <div class="ct-g">
-        <div class="ct-left">
-          <span class="tag rv">Get in Touch</span>
-          <h2 class="rv d1">Let&rsquo;s Start a <em>Conversation</em></h2>
-          <p class="rv d2">Whether you&rsquo;re booking Nzioki for your next event, exploring a consulting engagement,
-            or simply beginning a conversation about your leadership journey &mdash; he would love to hear from you.</p>
-          <div class="ct-methods rv d3">
-            <a href="mailto:hello@professorofwhy.com" class="ctm">
-              <div class="ctm-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="1.8">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                  <polyline points="22,6 12,13 2,6" />
-                </svg></div>
-              <div><span class="ctm-lbl">Email</span><span class="ctm-val">hello@professorofwhy.com</span></div>
-            </a>
-            <a href="https://wa.me/254700000000" target="_blank" rel="noopener" class="ctm">
-              <div class="ctm-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="1.8">
-                  <path
-                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-                </svg></div>
-              <div><span class="ctm-lbl">WhatsApp</span><span class="ctm-val">Chat on WhatsApp</span></div>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener" class="ctm">
-              <div class="ctm-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="1.8">
-                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                  <rect x="2" y="9" width="4" height="12" />
-                  <circle cx="4" cy="4" r="2" />
-                </svg></div>
-              <div><span class="ctm-lbl">LinkedIn</span><span class="ctm-val">Connect on LinkedIn</span></div>
-            </a>
-          </div>
+        <!-- Navigate -->
+        <div>
+          <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; font-size: 0.9rem;">Navigate</h4>
+          <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><a href="index.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Home</a></li>
+            <li><a href="about.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">About Nzioki</a></li>
+            <li><a href="speaking.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Services & Keynotes</a></li>
+          </ul>
         </div>
-        <div class="ct-form rvr">
-          <h3>Book Nzioki to Speak</h3>
-          <p class="f-sub">Fill in the form and Nzioki&rsquo;s team will respond within 24&ndash;48 hours.</p>
-          <div class="frow">
-            <div class="fg"><label>First Name</label><input type="text" placeholder="First name" /></div>
-            <div class="fg"><label>Last Name</label><input type="text" placeholder="Last name" /></div>
-          </div>
-          <div class="fg"><label>Email Address</label><input type="email" placeholder="your@email.com" /></div>
-          <div class="fg"><label>Organisation</label><input type="text" placeholder="Your company or organisation" />
-          </div>
-          <div class="fg"><label>Engagement Type</label>
-            <select>
-              <option value="" disabled selected>Select type of engagement</option>
-              <option>Keynote Speaking</option>
-              <option>Leadership Workshop</option>
-              <option>Consulting Engagement</option>
-              <option>Executive Strategy / Coaching</option>
-              <option>Author / Book-Related</option>
-              <option>Media / Podcast Interview</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="fg"><label>Message</label><textarea
-              placeholder="Tell me about your event, organisation, and what you are looking to achieve..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-red btn-fw" onclick="submitForm(event)"><svg width="18" height="18"
-              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-              <path d="M12 20h9" />
-              <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
-            </svg> Send Message</button>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- CTA BAND -->
-  <div class="cta-band" id="cta-band">
-    <div class="wrap">
-      <div class="cta-in">
-        <span class="tag">Ready to Discover Your WHY?</span>
-        <h2>BOOK YOUR ONE-ON-ONE SESSION WITH NZIOKI</h2>
-        <p>Book your one-on-one session with Nzioki! Unlock clarity, strategy and purpose-driven leadership tailored to
-          your journey.</p>
-        <div style="display:flex;gap:13px;justify-content:center;flex-wrap:wrap">
-          <a href="#contact" class="btn btn-white"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="1.8">
-              <path d="M12 20h9" />
-              <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
-            </svg> BOOK NOW</a>
-          <a href="speaking.html#mk" class="btn" style="border:1.5px solid rgba(255,255,255,.5);color:#fff">DOWNLOAD MEDIA KIT</a>
+        <!-- Resources -->
+        <div>
+          <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; font-size: 0.9rem;">Resources</h4>
+          <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><a href="books.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Books & Publications</a></li>
+            <li><a href="gallery.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Media Gallery</a></li>
+            <li><a href="speaking.html#mk" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Speaker Rider</a></li>
+          </ul>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="wrap">
-      <div class="footer-logo-center">
-        <a href="index.html">
-          <img src="logo.png" alt="Prof. Nzioki ERiK" class="site-logo" />
-        </a>
-      </div>
-      <div class="footer-main">
-        <div class="fcol">
-          <h4>Quick Links</h4>
-          <div class="flinks">
-            <a href="index.html">Home</a><a href="about.html">About</a><a href="speaking.html">Services</a><a href="books.html">Books</a>
-            <a href="about.html#code">The WHY CODE</a><a href="index.html#testi">Testimonials</a><a href="gallery.html">Gallery</a>
-          </div>
-        </div>
-        <div class="fcol">
-          <h4>Navigate</h4>
-          <div class="flinks">
-            <a href="books.html">Books</a><a href="gallery.html">Gallery</a><a href="books.html#blog">Blog</a><a href="speaking.html#mk">Media Kit</a>
-            <a href="#contact">Contact</a><a href="#cta-band">Book Nzioki</a>
-          </div>
-        </div>
-        <div class="fcol">
-          <h4>Information</h4>
-          <div class="flinks">
-            <a href="#">Privacy &amp; Cookies Policy</a><a href="#">Terms &amp; Conditions</a>
-          </div>
-        </div>
-        <div class="fcol">
-          <h4>Contact</h4>
-          <div class="flinks">
-            <a href="mailto:hello@professorofwhy.com">hello@professorofwhy.com</a>
-            <a href="https://wa.me/254700000000">WhatsApp Chat</a>
-            <a href="https://linkedin.com">LinkedIn</a>
-          </div>
-          <h4 style="margin-top:1.4rem">Social</h4>
-          <div class="flinks">
-            <a href="#">LinkedIn</a><a href="#">X (Twitter)</a>
-            <a href="#">TikTok</a><a href="#">YouTube</a><a href="#">Instagram</a>
-          </div>
+        <!-- Information -->
+        <div>
+          <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; font-size: 0.9rem;">Information</h4>
+          <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><span style="color: #aaa; font-size: 0.85rem;">Nairobi, Kenya</span></li>
+            <li><span style="color: #aaa; font-size: 0.85rem;">hello@nziokierik.com</span></li>
+            <li><a href="#conversation" style="color: var(--color-gold); text-decoration: none; font-size: 0.85rem; font-weight: bold;">Book Now</a></li>
+          </ul>
         </div>
       </div>
-      <div class="footer-bot">
-        <div class="copy">&copy; 2025 Nzioki Erik &mdash; The Professor of Why&trade;. All rights reserved.</div>
-        <div class="fp">WHY is not a question. It is a <em>destination.</em></div>
+
+      <div style="border-top: 1px solid #333; padding-top: 24px; display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: #777;">
+        <p>© 2026 Nzioki Erik — The Professor of Why™. All rights reserved.</p>
+        <p class="footer-tagline" style="color: #777;">WHY is not a question. It is a <em style="color: var(--color-gold);">destination.</em></p>
       </div>
     </div>
   </footer>
 
-  <div id="toast"><strong>Message Sent!</strong>Nzioki&rsquo;s team will be in touch within 24&ndash;48 hours. Thank
-    you.</div>
-
-  <script>
-    // Custom cursor
-    const cur = document.getElementById('cur');
-    const ring = document.getElementById('cur-ring');
-    let mx = 0, my = 0, rx = 0, ry = 0;
-    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cur.style.left = mx + 'px'; cur.style.top = my + 'px'; });
-    (function animRing() {
-      rx += (mx - rx) * .12; ry += (my - ry) * .12;
-      ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
-      requestAnimationFrame(animRing);
-    })();
-    document.querySelectorAll('a,button,.svc,.praise-card,.art,.dlc').forEach(el => {
-      el.addEventListener('mouseenter', () => { ring.style.width = '56px'; ring.style.height = '56px'; ring.style.opacity = '.6'; });
-      el.addEventListener('mouseleave', () => { ring.style.width = '32px'; ring.style.height = '32px'; ring.style.opacity = '1'; });
-    });
-
-    // Nav solid on scroll
-    const nav = document.getElementById('nav');
-    window.addEventListener('scroll', () => nav.classList.toggle('solid', scrollY > 60), { passive: true });
-
-    // Mobile drawer
-    const ham = document.getElementById('ham');
-    const drawer = document.getElementById('drawer');
-    ham.addEventListener('click', () => { ham.classList.toggle('x'); drawer.classList.toggle('open'); });
-    drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { ham.classList.remove('x'); drawer.classList.remove('open'); }));
-
-    // Scroll reveal
-    const obs = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } }), { threshold: .1, rootMargin: '0px 0px -36px 0px' });
-    document.querySelectorAll('.rv,.rvl,.rvr').forEach(el => obs.observe(el));
-
-    // Count-up animation
-    function countUp(el, target) {
-      const dur = 2200; const start = performance.now();
-      const big = target >= 1000;
-      (function step(now) {
-        const p = Math.min((now - start) / dur, 1);
-        const e = 1 - Math.pow(1 - p, 4);
-        const v = Math.round(e * target);
-        el.textContent = big ? (v >= 1000 ? Math.floor(v / 1000) + 'K+' : v + '+') : v + '+';
-        if (p < 1) requestAnimationFrame(step);
-      })(start);
-    }
-    const cntObs = new IntersectionObserver(entries => entries.forEach(e => {
-      if (e.isIntersecting) { countUp(e.target, +e.target.dataset.count); cntObs.unobserve(e.target); }
-    }), { threshold: .5 });
-    document.querySelectorAll('[data-count]').forEach(el => cntObs.observe(el));
-
-    // Form submit
-    function submitForm(e) {
-      e.preventDefault();
-      const t = document.getElementById('toast');
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 4500);
-    }
-  </script>
-
-  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
-    <button id="lb-close" class="lb-close" aria-label="Close">&times;</button>
-    <button id="lb-prev" class="lb-nav lb-prev" aria-label="Previous">&#8592;</button>
-    <div class="lb-content">
-      <span id="lb-cat" class="lb-cat"></span>
-      <img id="lb-img" src="" alt="" class="lb-img" />
-      <p id="lb-caption" class="lb-caption"></p>
-    </div>
-    <button id="lb-next" class="lb-nav lb-next" aria-label="Next">&#8594;</button>
-  </div>
-  
-  <script>
-    // ── GALLERY FILTER & LIGHTBOX ────────────────────────────────
-    (function() {
-      const tabs    = document.querySelectorAll('.gf-tab');
-      const items   = document.querySelectorAll('.gi');
-      if (!tabs.length || !items.length) return;
-      let   current = 'all';
-      let   filtered = [];
-      let   lbIdx   = 0;
-
-      function getFiltered() {
-        return Array.from(items).filter(el =>
-          current === 'all' || el.dataset.cat === current
-        );
-      }
-
-      function applyFilter(cat) {
-        current = cat;
-        filtered = getFiltered();
-        items.forEach(el => {
-          const match = cat === 'all' || el.dataset.cat === cat;
-          if(match) {
-            el.style.display = 'block';
-            setTimeout(() => {
-              el.classList.remove('hidden');
-              el.classList.add('visible');
-            }, 10);
-          } else {
-            el.classList.remove('visible');
-            el.classList.add('hidden');
-            setTimeout(() => {
-              if (el.classList.contains('hidden')) el.style.display = 'none';
-            }, 350);
-          }
-        });
-      }
-
-      tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-          tabs.forEach(t => t.classList.remove('active'));
-          tab.classList.add('active');
-          applyFilter(tab.dataset.filter);
-        });
-      });
-
-      const lb     = document.getElementById('lightbox');
-      const lbImg  = document.getElementById('lb-img');
-      const lbCap  = document.getElementById('lb-caption');
-      const lbCat  = document.getElementById('lb-cat');
-      const lbClose= document.getElementById('lb-close');
-      const lbPrev = document.getElementById('lb-prev');
-      const lbNext = document.getElementById('lb-next');
-
-      function openLightbox(idx) {
-        filtered = getFiltered();
-        if (!filtered.length) return;
-        lbIdx = Math.max(0, Math.min(idx, filtered.length - 1));
-        showSlide(lbIdx);
-        lb.classList.add('lb-open');
-        document.body.style.overflow = 'hidden';
-        lbClose.focus();
-      }
-
-      function closeLightbox() {
-        lb.classList.remove('lb-open');
-        document.body.style.overflow = '';
-      }
-
-      function showSlide(idx) {
-        const item  = filtered[idx];
-        const img   = item.querySelector('img');
-        const cap   = item.querySelector('.gi-caption');
-        const cat   = item.querySelector('.gi-cat');
-        lbImg.style.opacity = '0';
-        setTimeout(() => {
-          lbImg.src = img.src;
-          lbImg.alt = img.alt;
-          lbCap.textContent  = cap  ? cap.textContent  : '';
-          lbCat.textContent  = cat  ? cat.textContent  : '';
-          lbImg.style.opacity = '1';
-        }, 180);
-        lbPrev.style.display = filtered.length > 1 ? 'flex' : 'none';
-        lbNext.style.display = filtered.length > 1 ? 'flex' : 'none';
-      }
-
-      function prevSlide() {
-        lbIdx = (lbIdx - 1 + filtered.length) % filtered.length;
-        showSlide(lbIdx);
-      }
-
-      function nextSlide() {
-        lbIdx = (lbIdx + 1) % filtered.length;
-        showSlide(lbIdx);
-      }
-
-      items.forEach((item, i) => {
-        item.addEventListener('click', () => {
-          filtered = getFiltered();
-          const idx = filtered.indexOf(item);
-          if (idx !== -1) openLightbox(idx);
-        });
-      });
-
-      lbClose.addEventListener('click', closeLightbox);
-      lbPrev.addEventListener('click', prevSlide);
-      lbNext.addEventListener('click', nextSlide);
-      lb.addEventListener('click', e => {
-        if (e.target === lb) closeLightbox();
-      });
-
-      document.addEventListener('keydown', e => {
-        if (!lb.classList.contains('lb-open')) return;
-        if (e.key === 'Escape')     closeLightbox();
-        if (e.key === 'ArrowLeft')  prevSlide();
-        if (e.key === 'ArrowRight') nextSlide();
-      });
-
-      filtered = getFiltered();
-    })();
-
-    // Active nav highlight
-    const secs = document.querySelectorAll('section[id]');
-    const nlinks = document.querySelectorAll('.nmenu a');
-    window.addEventListener('scroll', () => {
-      let cur2 = '';
-      secs.forEach(s => { if (scrollY >= s.offsetTop - 130) cur2 = s.id; });
-      nlinks.forEach(a => {
-        a.style.color = '';
-        if (a.getAttribute('href') === '#' + cur2) a.style.color = 'var(--red)';
-      });
-    }, { passive: true });
-  </script>
-  <script src="premium-ux.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="animations.js"></script>
 </body>
-
-</html>
+  </html>
+            
