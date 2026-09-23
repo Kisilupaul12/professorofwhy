@@ -335,6 +335,14 @@ body {
   font-weight: 300;
 }
 
+.hero-caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-gray-500);
+  margin-top: -24px;
+  margin-bottom: 32px;
+}
+
 /* 7. STATS STRIP */
 .stats-strip {
   background: var(--color-black);
@@ -474,8 +482,12 @@ body {
 .marquee-track {
   display: flex;
   gap: 32px;
-  animation: marquee 30s linear infinite;
+  animation: marquee 50s linear infinite;
   white-space: nowrap;
+}
+
+.marquee-wrapper:hover .marquee-track {
+  animation-play-state: paused;
 }
 
 .testimonial-card {
@@ -531,6 +543,26 @@ body {
   100% {
     transform: translateX(-50%);
   }
+}
+
+.praise-card {
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease;
+}
+
+.praise-card:hover {
+  transform: translateY(-4px);
+}
+
+.praise-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* 11. CTA DARK SECTION */
